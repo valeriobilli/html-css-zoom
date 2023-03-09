@@ -27,12 +27,32 @@ body {
     justify-content: flex-end;
 }
 
+.justCntr {
+    justify-content: center;
+}
+
+.alignCntr {
+    align-items: center;
+}
+
+.dirCol {
+    flex-direction: column;
+}
+
 .posRelative {
     position: relative;
 }
 
 .posAbsolute {
     position: absolute;
+}
+
+.mrgLeft20px {
+    margin-left: 20px;
+}
+
+.mrgTop10px {
+    margin-top: 10px;
 }
 
 /* ELEMENTI PAGINA */
@@ -57,18 +77,20 @@ main {
     height: calc(100vh - 140px);
 }
 
-.boxImage {
-    width: 245px;
-    height: 145px;
+.container {
+    padding: 25px 80px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 }
-
-.mountain {
-    width: 245px;
+    
+.image {
+    width: 245px; 
     height: 145px;
+} 
+
+.boxImage {
+    margin-bottom: 5px;
 }
 
 .user {
@@ -85,4 +107,25 @@ main {
 
 footer {
     height: 80px;
+    color: white;
+    padding-left: 10px;
+}
+
+
+.contFooter {
+    width: calc(100% / 3)
+}
+
+footer i {
+    color: white;
+    font-size: 30px;
+}
+
+footer span {
+    font-size: 12px;
+    color: #d7d5d5;
+}
+
+.smallArrow {
+    font-size: 14px;
 }
