@@ -15,6 +15,10 @@ body {
     background-color: black;
 }
 
+.bgDarkGray {
+    background-color: #222222;
+}
+
 .flex {
     display: flex;
 }
@@ -24,6 +28,8 @@ body {
 }
 
 /* ELEMENTI PAGINA */
+
+/* HEADER */
 
 header {
     height: 60px;
@@ -35,4 +41,16 @@ header {
     margin: 8px;
     padding: 0.4em;
     border-radius: 5px;
+}
+
+/* MAIN */
+
+main {
+    height: calc(100vh - 140px);
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
 }
