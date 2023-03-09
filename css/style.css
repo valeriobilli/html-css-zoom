@@ -47,6 +47,17 @@ header {
 
 main {
     height: calc(100vh - 140px);
+    padding: 25px 80px;
+}
+
+.boxImage {
+    width: 245px;
+    height: 145px;
+}
+
+.mountain {
+    width: 245px;
+    height: 145px;
 }
 
 /* FOOTER */
