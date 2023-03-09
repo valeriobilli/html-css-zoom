@@ -55,20 +55,17 @@ header {
 
 main {
     height: calc(100vh - 140px);
-}
-
-.boxImage {
-    width: 245px;
-    height: 145px;
+    padding: 25px 85px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 }
 
-.mountain {
-    width: 245px;
-    height: 145px;
+.boxImage {
+    background-image: url("https://i.pinimg.com/originals/1b/e1/96/1be196341192f2f0123a2c86e7067a0b.jpg");
+    background-size: contain;
+    width: calc(100% / 7);
+    height: calc(100% / 5);
 }
 
 .user {
