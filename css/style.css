@@ -27,6 +27,14 @@ body {
     justify-content: flex-end;
 }
 
+.posRelative {
+    position: relative;
+}
+
+.posAbsolute {
+    position: absolute;
+}
+
 /* ELEMENTI PAGINA */
 
 /* HEADER */
@@ -47,18 +55,31 @@ header {
 
 main {
     height: calc(100vh - 140px);
-    padding: 25px 80px;
 }
 
 .boxImage {
     width: 245px;
     height: 145px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .mountain {
     width: 245px;
     height: 145px;
 }
+
+.user {
+    color: white;
+    padding: 0.3em;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.292);
+    bottom: 0;
+    left: 0;
+}
+
 
 /* FOOTER */
 
