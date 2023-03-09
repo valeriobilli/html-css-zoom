@@ -111,9 +111,8 @@ footer {
     padding-left: 10px;
 }
 
-
 .contFooter {
-    width: calc(100% / 3)
+    width: calc(100% / 3);
 }
 
 footer i {
@@ -128,4 +127,13 @@ footer span {
 
 .smallArrow {
     font-size: 14px;
+}
+
+.greenIcon {
+    color: #4bc800;
+}
+
+.endMeeting {
+    justify-content: flex-end;
+    align-items: flex-end;
 }
