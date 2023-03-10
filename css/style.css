@@ -27,6 +27,11 @@ body {
     justify-content: flex-end;
 }
 
+.justifyBetween {
+    justify-content: space-between;
+}
+
+
 .justCntr {
     justify-content: center;
 }
@@ -69,6 +74,7 @@ header {
     margin: 8px;
     padding: 0.4em;
     border-radius: 5px;
+    border: none;
 }
 
 /* MAIN */
@@ -133,7 +139,10 @@ footer span {
     color: #4bc800;
 }
 
-.endMeeting {
-    justify-content: flex-end;
-    align-items: flex-end;
+#endMeeting {
+    color: red;
+    background-color: #4a4a4a;
+    padding: 2em;
+    font-weight: bold;
+    align-items: center;
 }
