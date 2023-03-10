@@ -91,30 +91,31 @@ main {
 }
 
 .container {
-    padding: 25px 80px;
+    height: calc(100vh - 140px);
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    overflow-y: auto;
 }
     
 .image {
     width: 245px; 
     height: 145px;
+    display: block;
 } 
 
 .boxImage {
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
 .user {
     color: white;
-    padding: 0.3em;
+    padding: 0.4em;
     font-size: 14px;
     background-color: rgba(0, 0, 0, 0.292);
     bottom: 0;
     left: 0;
 }
-
 
 /* FOOTER */
 
@@ -149,7 +150,7 @@ footer span {
 #endMeeting {
     color: red;
     background-color: #4a4a4a;
-    padding: 2em;
+    padding: 30px;
     font-weight: bold;
     align-items: center;
 }
